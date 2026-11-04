@@ -1709,7 +1709,7 @@ export const approveBooking = async (req, res) => {
 
     // Send notification to admin
     try {
-      const adminEmail = process.env.ADMIN_EMAIL || 'aishwaryaminn@gmail.com';
+      const adminEmail = process.env.ADMIN_EMAIL || '';
       await sendAdminNotificationEmail(adminEmail, 
         'Booking Approved', 
         `Booking #${booking.bookingId} has been approved`, 

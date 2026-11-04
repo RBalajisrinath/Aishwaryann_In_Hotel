@@ -734,7 +734,7 @@ export const createBookingWithPayment = async (req, res) => {
 
     // Send email notification to admin about new booking pending approval
     try {
-      const adminEmail = process.env.ADMIN_EMAIL || 'aishwaryaminn@gmail.com';
+      const adminEmail = process.env.ADMIN_EMAIL || '';
       const paymentSettings = await executeQuery(
         'SELECT * FROM payment_settings WHERE hotelId = ?',
         [room.hotelId]
