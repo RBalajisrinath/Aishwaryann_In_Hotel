@@ -1,0 +1,2 @@
+-- This file was a stray duplicate and has been cleared to avoid any billing related DDL or helpers.
+-- Please use server/models/index.js (the main models file) for model definitions.

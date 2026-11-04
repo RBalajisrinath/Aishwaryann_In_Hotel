@@ -1,0 +1,2 @@
+-- Migration removed: bill template / billing related SQL was removed from the repository.
+-- This file was intentionally cleared to avoid executing billing-related DDL.
